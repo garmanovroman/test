@@ -1,0 +1,14 @@
+stages:
+  - build
+
+build:
+    stage: build
+    image: node:lts
+    artifacts:
+        paths:
+            - build
+            - node_modules/
+    script: 
+        - unset CI
+        - npm install --legacy-peer-deps
+        - npm run build

@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "53GWUXREQG.ru.varstudio.system123plus"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "all"
+          }
+        ]
+      }
+    ]
+  }
+}

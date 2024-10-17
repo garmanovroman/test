@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
+  <symbol id="icon-document" viewBox="0 0 512 512">
+      <rect id="top-part" x="9" y="3.5" width="6" height="12" rx="3" fill="#5A8CF6"/>
+      <animate class="micro" xlink:href="#top-part" attributeName="height" from="6" to="12" dur="400ms" begin="indefinite" fill="freeze" />
+      <animate class="micro" id="drill" xlink:href="#top-part" attributeName="y" from="9" to="3.5" begin="indefinite" dur="400ms" fill="freeze" />
+  </symbol>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "common": {
+    "base_url": "https://lab.system123.ru",
+    "base_url_remote": "https://lab.system123.ru",
+    "server_api_endpoint": "https://lab.system123.ru/rest/api/",
+    "identity": "https://identity.system123.ru/",
+    "api": "https://api.system123.ru/api/",
+    "chat": "https://2dchat.system123.ru",
+    "apiChat": "https://api.system123.ru/",
+    "view": "https://view.system123.ru/",
+    "vroom": "https://vroom.system123.ru/",
+    "editor": "https://editor.system123.ru/",
+    "widget": "https://widget.system123.ru/",
+    "widget_staging": "https://widget.staging.system123.ru/"
+  },
+  "auth": {
+    "authority": "https://lab.system123.ru/identity",
+    "client_id": "web-business-app",
+    "response_type": "code",
+    "scope": "openid profile web_api offline_access",
+    "refresh_time_before_tokens_expiration_in_second": 70,
+    "automaticSilentRenew": true,
+    "redirect_uri": "http://localhost:3000/callback.html",
+    "silent_redirect_uri": "http://localhost:3000/refresh.html",
+    "silent_redirect_uri": "http://localhost:3000/updatetoken.html",
+    "post_logout_redirect_uri": "http://localhost:3000"
+  }
+}
